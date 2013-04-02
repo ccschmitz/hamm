@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+.icon-switch:before { content: '\21c6'; } /* '⇆' */
+.icon-list:before { content: '\e005'; } /* '' */
+.icon-export:before { content: '\e715'; } /* '' */
+.icon-location:before { content: '\e724'; } /* '' */
+.icon-dot-3:before { content: '\e78d'; } /* '' */
+.icon-trophy:before { content: '🏆'; } /* '\1f3c6' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
+.icon-chart-line:before { content: '📈'; } /* '\1f4c8' */
+.icon-search:before { content: '🔍'; } /* '\1f50d' */

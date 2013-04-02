@@ -1,0 +1,464 @@
+/*
+* Oink
+* Copyright Oink Bank 2013
+* www.oinkbank.co
+*/
+
+
+// ----------
+// Reset
+@import "compass/reset";
+
+
+// ----------
+// Base Styles
+body {
+  font-size: 0.9em;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+}
+a, a:visited {
+  text-decoration: none;
+  outline: 0;
+}
+a:hover, a:focus { text-decoration: underline; }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 24px 0;
+  color: #454545;
+}
+h1, h2 { margin: 0 0 32px 0; }
+h5, h6 { margin: 0 0 20px 0; }
+h1 { font-size: 3em; } /* 42px */
+h2 { font-size: 2.5em; } /* 36px */
+h3 { font-size: 2em; } /* 28px */
+h4 { font-size: 1.7em; } /* 24px */
+h5 { font-size: 1.4em; } /* 20px */
+h6 { font-size: 1.1em; } /* 16px */
+p { margin: 0 0 24px 0; font-size: 1.4em; }
+strong { font-weight: 700; }
+i { font-style: italic; }
+
+img { 
+	max-width: 100%;
+	height: auto;
+}
+
+
+// ----------
+// Utilities
+@import "breakpoints";
+@import "mixins";
+
+@import "navbar";
+@import "forms";
+@import "tables";
+
+
+// ----------
+// Hide Elements
+// Hide from Browsers and Screedreaders
+.hide {
+  display: none !important;
+  visibility: hidden;
+}
+// Hide Visually(Browsers), but Available for Screenreaders
+.visualhide {
+  border: 0;
+  clip: rect(0 0 0 0); // IE7, IE8
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+// Hide from Browsers and Screedreaders, but Maintain Layout
+.invisible { visibility: hidden; }
+
+
+// ----------
+// Layout
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #F5F5F5;
+  padding-top: 0;
+}
+
+header {
+  background: #FFF;
+  border-top: 4px solid #005878;
+  border-bottom: 1px solid #CCC;
+  -moz-box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
+  -webkit-box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
+  box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
+  height: 59px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+a.user {
+  background: inherit;
+  border-right: 1px solid #DDD;
+  display: block;
+  float: left;
+  padding: 14px 15px 13px 15px;
+  width: 22%;
+  @include box-sizing(border-box);
+  &:hover {
+    @include linear-grad(top,#EDEDED,#FFFFFF);
+  }
+  & img {
+    background: #666;
+    border-radius: 3px;
+    float: left;
+    height: 32px;
+    margin: 0 15px 0 0;
+    width: 32px;
+  }
+  & detail {
+    float: left;
+    height: 32px;
+    overflow: hidden;
+    & h6 {
+      color: #454545;
+      font-size: 1em;
+      font-weight: 700;
+      line-height: 1;
+      margin: 0;
+      vertical-align: middle;
+      & span.admin {
+        background: #999;
+        border-radius: 2px;
+        color: #FFF;
+        display: inline-block;
+        font-size: 0.6em;
+        height: 12px;
+        line-height: 12px;
+        margin: 1px 0 0 6px;
+        width: 12px;
+        text-align: center;
+        vertical-align: top;
+      }
+    }
+    & company {
+      color: #999;
+      font-size: 0.7em;
+    }
+  }
+}
+tools {
+  border-right: 1px solid #DDD;
+  float: left;
+  height: 100%;
+  padding: 14px 15px;
+  width: 50%;
+  @include box-sizing(border-box);
+  & belt {
+    display: block;
+    height: 32px;
+    & search {
+      background: #FFF;
+      border: 1px solid #BBB;
+      border-radius: 3px;
+      color: #777;
+      float: left;
+      height: 30px;
+      margin: 0;
+      position: relative;
+      width: 200px;
+      z-index: 4444;
+      & button {
+        border: none;
+        border-radius: 3px 0 0 3px;
+        border-right: 1px solid #BBB;
+        float: none;
+        left: 0;
+        padding: 3px;
+        position: absolute;
+        z-index: 5555;
+      }
+      & input[type="text"] {
+        background: inherit;
+        border: none;
+        height: 30px;
+        left: 40px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 160px;
+      }
+    }
+    & select {
+      float: right;
+      margin-bottom: 0;
+    }
+    & btngroup {
+      float: right;
+      margin: 0 10px 0 0;
+      & button {
+        border-radius: 0;
+        &.first { border-right: 0; border-radius: 4px 0 0 4px; }
+        &.last { border-left: 0; border-radius: 0 4px 4px 0; }
+      }
+    }
+    & button {
+      @include linear-grad(top,#EDEDED,#FFFFFF);
+      color: #666;
+      float: right;
+      font-size: 1.2em;
+      height: 24px;
+      margin: 0;
+      padding: 3px;
+      width: 24px;
+      &:hover {
+        background: #FFF;
+      }
+    }
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+}
+
+content {
+  background: #F5F5F5;
+  height: 100%;
+  padding: 64px 0 50px 0;
+  position: absolute;
+  width: 100%;
+}
+navbar {
+  border-right: 1px solid #DDD;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  width: 22%;
+  z-index: 3333;
+  @include box-sizing(border-box);
+  & balance {
+  	border-top: 1px solid #FFF;
+  	border-bottom: 1px solid #DDD;
+  	color: #333;
+  	display: block;
+  	font-size: 2.25em;
+  	line-height: 40px;
+  	height: 40px;
+  	padding: 20px 0;
+  	text-align: center;
+  	width: 100%;
+  	@include linear-grad(top,#EDEDED,#F5F5F5);
+  }
+  & ngroup {
+  	border-top: 1px solid #FFF;
+  	border-bottom: 1px solid #DDD;
+  	color: #AAA;
+  	display: block;
+  	font-size: 0.7em;
+  	font-weight: 700;
+  	line-height: 16px;
+  	height: 32px;
+  	padding: 8px 15px;
+  	text-shadow: 0 1px 0 #FFF;
+  	text-transform: uppercase;
+  	width: 100%;
+  	@include box-sizing(border-box);
+  }
+  & ul {
+  	padding: 0;
+  	margin: 0;
+  	& li a {
+  	  border-top: 1px solid #FFF;
+  	  border-bottom: 1px solid #DDD;
+  	  color: #454545;
+  	  display: block;
+  	  font-size: 1em;
+  	  line-height: 24px;
+  	  height: 24px;
+  	  padding: 15px;
+      vertical-align: top;
+  	  &:hover {
+  	  	background: #EDEDED;
+  	  	text-decoration: none;
+  	  }
+  	  & span {
+  	  	border-radius: 3px;
+        color: #666;
+  	  	display: inline-block;
+        font-size: 16px;
+  	  	height: 24px;
+  	  	margin: 0 15px 0 0;
+  	  	width: 24px;
+  	  }
+      & img {
+        border-radius: 3px;
+        display: inline-block;
+        height: 24px;
+        margin: 0 15px 0 0;
+        width: 24px;
+      }
+  	}
+  }
+}
+section {
+  border-right: 1px solid #DDD;
+  border-left: 1px solid #FFF;
+  height: 100%;
+  left: 22%;
+  position: absolute;
+  width: 50%;
+  z-index: 3333;
+  @include box-sizing(border-box);
+}
+sidebar {
+  border-left: 1px solid #FFF;
+  height: 100%;
+  padding: 40px 15px 15px 15px;
+  position: fixed;
+  right: 0;
+  width: 28%;
+  z-index: 3333;
+  @include box-sizing(border-box);
+  & h3 { margin: 0 0 10px 0; }
+  & date {
+    color: #666;
+    display: block;
+    margin: 0 0 20px 0;
+  }
+  & p {
+    color: #999;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+  }
+  & ul.tag {
+    height: 11px;
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 0;
+    & li { 
+      background: #FFF;
+      border: 1px solid #CCC;
+      border-radius: 10px;
+      color: #999;
+      display: inline;
+      font-size: 0.7em;
+      margin: 0 3px 0 0;
+      padding: 2px 6px;
+    }
+  }
+  & location {
+    background: #999;
+    display: block;
+    height: 160px;
+    margin: 0 0 30px 0;
+    width: 100%;
+  }
+}
+
+footer {
+  background: #CCC;
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+// ----------
+// Transactions
+ul.transactions {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  & li a {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    -moz-box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
+  	-webkit-box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
+  	box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
+  	display: block;
+  	margin: 0 0 10px 0;
+  	overflow: hidden;
+  	padding: 20px;
+  	width: 100%;
+  	@include box-sizing(border-box);
+  	&:hover {
+	    @include linear-grad(top,#F9F9F9,#FFFFFF);
+      border-color: #BBB;
+	    text-decoration: none;
+    }
+	}
+	& img {
+	  background: #666;
+	  border-radius: 3px;
+	  float: left;
+	  height: 40px;
+	  margin: 0 12px 0 0;
+	  width: 40px;
+	}
+	& date {
+	  color: #999;
+	  float: left;
+	  font-size: 0.8em;
+	  font-weight: 700;
+	  line-height: 1.2;
+	  height: 38px;
+	  padding: 2px 0 0 0;
+	  text-align: center;
+	  text-transform: uppercase;
+	  width: 30px;
+	  & span { font-size: 1.8em; }
+	}
+	& detail {
+	  float: left;
+	  line-height: 1.2;
+	  height: 40px;
+	  margin: 0 20px 0 12px;
+	  max-width: 38%;
+	  & h6 { font-weight: 700; margin: 0 0 4px 0; }
+	  & i { color: #999; }
+	}
+	& ul.tag {
+	  float: right;
+	  height: 11px;
+	  list-style: none;
+	  margin: 0;
+	  overflow: hidden;
+	  padding: 10px 0;
+	  & li { 
+	  	background: #FFF;
+	  	border: 1px solid #CCC;
+	  	border-radius: 10px;
+	  	color: #999;
+	  	display: inline;
+	  	font-size: 0.7em;
+	  	margin: 0 3px 0 0;
+	  	padding: 2px 6px;
+	  }
+	}
+	& h5.amount {
+	  float: right;
+	  font-weight: 700;
+	  line-height: 40px;
+	  margin: 0 0 0 20px;
+	  text-align: right;
+	  width: 20%;
+	  &.deposit { color: #A5CC59; }
+	  &.withdraw { color: #BF0738; }
+	}
+}
+
+
+
+
+//  Clear
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
