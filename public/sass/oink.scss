@@ -39,7 +39,7 @@ p { margin: 0 0 24px 0; font-size: 1.4em; }
 strong { font-weight: 700; }
 i { font-style: italic; }
 
-img { 
+img {
 	max-width: 100%;
 	height: auto;
 }
@@ -339,7 +339,7 @@ sidebar {
     list-style: none;
     margin: 0 0 30px 0;
     padding: 0;
-    & li { 
+    & li {
       background: #FFF;
       border: 1px solid #CCC;
       border-radius: 10px;
@@ -430,7 +430,7 @@ ul.transactions {
 	  margin: 0;
 	  overflow: hidden;
 	  padding: 10px 0;
-	  & li { 
+	  & li {
 	  	background: #FFF;
 	  	border: 1px solid #CCC;
 	  	border-radius: 10px;
@@ -442,14 +442,14 @@ ul.transactions {
 	  }
 	}
 	& h5.amount {
+    color: #A5CC59;
 	  float: right;
 	  font-weight: 700;
 	  line-height: 40px;
 	  margin: 0 0 0 20px;
 	  text-align: right;
 	  width: 20%;
-	  &.deposit { color: #A5CC59; }
-	  &.withdraw { color: #BF0738; }
+    &.debit { color: #BF0738; }
 	}
 }
 

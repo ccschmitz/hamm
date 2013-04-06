@@ -3,7 +3,7 @@
 * Copyright Oink Bank 2013
 * www.oinkbank.co
 */
-/* line 17, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -187,7 +187,7 @@ input[type="search"], input[type="password"],
 input[type="tel"], input[type="url"],
 textarea, select {
   border-radius: 3px;
-  border: 1px solid #BBB;
+  border: 1px solid #bbbbbb;
   color: #777;
   font-size: 0.8em;
   line-height: 1;
@@ -217,7 +217,7 @@ input[type="search"]::-webkit-search-results-decoration {
 button {
   background: #FFF;
   border-radius: 3px;
-  border: 1px solid #BBB;
+  border: 1px solid #bbbbbb;
   color: #666;
   cursor: pointer;
   display: block;
@@ -264,7 +264,7 @@ button:hover {
 
 /* line 83, ../sass/oink.scss */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #F5F5F5;
   padding-top: 0;
 }
@@ -273,7 +273,7 @@ body {
 header {
   background: #FFF;
   border-top: 4px solid #005878;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #cccccc;
   -moz-box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
   -webkit-box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
   box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
@@ -287,7 +287,7 @@ header {
 /* line 102, ../sass/oink.scss */
 a.user {
   background: inherit;
-  border-right: 1px solid #DDD;
+  border-right: 1px solid #dddddd;
   display: block;
   float: left;
   padding: 14px 15px 13px 15px;
@@ -350,7 +350,7 @@ a.user detail company {
 
 /* line 152, ../sass/oink.scss */
 tools {
-  border-right: 1px solid #DDD;
+  border-right: 1px solid #dddddd;
   float: left;
   height: 100%;
   padding: 14px 15px;
@@ -367,7 +367,7 @@ tools belt {
 /* line 162, ../sass/oink.scss */
 tools belt search {
   background: #FFF;
-  border: 1px solid #BBB;
+  border: 1px solid #bbbbbb;
   border-radius: 3px;
   color: #777;
   float: left;
@@ -381,7 +381,7 @@ tools belt search {
 tools belt search button {
   border: none;
   border-radius: 3px 0 0 3px;
-  border-right: 1px solid #BBB;
+  border-right: 1px solid #bbbbbb;
   float: none;
   left: 0;
   padding: 3px;
@@ -460,7 +460,7 @@ content {
 
 /* line 235, ../sass/oink.scss */
 navbar {
-  border-right: 1px solid #DDD;
+  border-right: 1px solid #dddddd;
   height: 100%;
   left: 0;
   position: fixed;
@@ -472,8 +472,8 @@ navbar {
 }
 /* line 243, ../sass/oink.scss */
 navbar balance {
-  border-top: 1px solid #FFF;
-  border-bottom: 1px solid #DDD;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #dddddd;
   color: #333;
   display: block;
   font-size: 2.25em;
@@ -490,8 +490,8 @@ navbar balance {
 }
 /* line 256, ../sass/oink.scss */
 navbar ngroup {
-  border-top: 1px solid #FFF;
-  border-bottom: 1px solid #DDD;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #dddddd;
   color: #AAA;
   display: block;
   font-size: 0.7em;
@@ -499,7 +499,7 @@ navbar ngroup {
   line-height: 16px;
   height: 32px;
   padding: 8px 15px;
-  text-shadow: 0 1px 0 #FFF;
+  text-shadow: 0 1px 0 white;
   text-transform: uppercase;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -513,8 +513,8 @@ navbar ul {
 }
 /* line 274, ../sass/oink.scss */
 navbar ul li a {
-  border-top: 1px solid #FFF;
-  border-bottom: 1px solid #DDD;
+  border-top: 1px solid white;
+  border-bottom: 1px solid #dddddd;
   color: #454545;
   display: block;
   font-size: 1em;
@@ -549,8 +549,8 @@ navbar ul li a img {
 
 /* line 307, ../sass/oink.scss */
 section {
-  border-right: 1px solid #DDD;
-  border-left: 1px solid #FFF;
+  border-right: 1px solid #dddddd;
+  border-left: 1px solid white;
   height: 100%;
   left: 22%;
   position: absolute;
@@ -563,7 +563,7 @@ section {
 
 /* line 317, ../sass/oink.scss */
 sidebar {
-  border-left: 1px solid #FFF;
+  border-left: 1px solid white;
   height: 100%;
   padding: 40px 15px 15px 15px;
   position: fixed;
@@ -600,7 +600,7 @@ sidebar ul.tag {
 /* line 342, ../sass/oink.scss */
 sidebar ul.tag li {
   background: #FFF;
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   border-radius: 10px;
   color: #999;
   display: inline;
@@ -636,7 +636,7 @@ ul.transactions {
 /* line 377, ../sass/oink.scss */
 ul.transactions li a {
   background: #FFF;
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   -moz-box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
   -webkit-box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
@@ -715,7 +715,7 @@ ul.transactions ul.tag {
 /* line 433, ../sass/oink.scss */
 ul.transactions ul.tag li {
   background: #FFF;
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   border-radius: 10px;
   color: #999;
   display: inline;
@@ -725,6 +725,7 @@ ul.transactions ul.tag li {
 }
 /* line 444, ../sass/oink.scss */
 ul.transactions h5.amount {
+  color: #A5CC59;
   float: right;
   font-weight: 700;
   line-height: 40px;
@@ -732,12 +733,8 @@ ul.transactions h5.amount {
   text-align: right;
   width: 20%;
 }
-/* line 451, ../sass/oink.scss */
-ul.transactions h5.amount.deposit {
-  color: #A5CC59;
-}
 /* line 452, ../sass/oink.scss */
-ul.transactions h5.amount.withdraw {
+ul.transactions h5.amount.debit {
   color: #BF0738;
 }
 
