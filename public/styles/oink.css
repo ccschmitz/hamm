@@ -638,19 +638,20 @@ ul.transactions li a {
   background: #FFF;
   border: 1px solid #cccccc;
   border-radius: 4px;
-  -moz-box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
   -webkit-box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
   box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.03);
   display: block;
   margin: 0 0 10px 0;
   overflow: hidden;
   padding: 20px;
   width: 100%;
+  transition: 1s all;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 390, ../sass/oink.scss */
+/* line 391, ../sass/oink.scss */
 ul.transactions li a:hover {
   background-color: #f9f9f9;
   background-image: -webkit-linear-gradient(top, white, #f9f9f9);
@@ -661,6 +662,11 @@ ul.transactions li a:hover {
   text-decoration: none;
 }
 /* line 396, ../sass/oink.scss */
+ul.transactions li a.highlight {
+  background: #fafafa;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+}
+/* line 401, ../sass/oink.scss */
 ul.transactions img {
   background: #666;
   border-radius: 3px;
@@ -669,7 +675,7 @@ ul.transactions img {
   margin: 0 12px 0 0;
   width: 40px;
 }
-/* line 404, ../sass/oink.scss */
+/* line 409, ../sass/oink.scss */
 ul.transactions date {
   color: #999;
   float: left;
@@ -682,11 +688,11 @@ ul.transactions date {
   text-transform: uppercase;
   width: 30px;
 }
-/* line 415, ../sass/oink.scss */
+/* line 420, ../sass/oink.scss */
 ul.transactions date span {
   font-size: 1.8em;
 }
-/* line 417, ../sass/oink.scss */
+/* line 422, ../sass/oink.scss */
 ul.transactions detail {
   float: left;
   line-height: 1.2;
@@ -694,16 +700,16 @@ ul.transactions detail {
   margin: 0 20px 0 12px;
   max-width: 38%;
 }
-/* line 423, ../sass/oink.scss */
+/* line 428, ../sass/oink.scss */
 ul.transactions detail h6 {
   font-weight: 700;
   margin: 0 0 4px 0;
 }
-/* line 424, ../sass/oink.scss */
+/* line 429, ../sass/oink.scss */
 ul.transactions detail i {
   color: #999;
 }
-/* line 426, ../sass/oink.scss */
+/* line 431, ../sass/oink.scss */
 ul.transactions ul.tag {
   float: right;
   height: 11px;
@@ -712,7 +718,7 @@ ul.transactions ul.tag {
   overflow: hidden;
   padding: 10px 0;
 }
-/* line 433, ../sass/oink.scss */
+/* line 438, ../sass/oink.scss */
 ul.transactions ul.tag li {
   background: #FFF;
   border: 1px solid #cccccc;
@@ -723,7 +729,7 @@ ul.transactions ul.tag li {
   margin: 0 3px 0 0;
   padding: 2px 6px;
 }
-/* line 444, ../sass/oink.scss */
+/* line 449, ../sass/oink.scss */
 ul.transactions h5.amount {
   color: #A5CC59;
   float: right;
@@ -733,12 +739,12 @@ ul.transactions h5.amount {
   text-align: right;
   width: 20%;
 }
-/* line 452, ../sass/oink.scss */
+/* line 457, ../sass/oink.scss */
 ul.transactions h5.amount.debit {
   color: #BF0738;
 }
 
-/* line 460, ../sass/oink.scss */
+/* line 465, ../sass/oink.scss */
 .clear:after {
   content: "";
   display: table;

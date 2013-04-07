@@ -1,36 +1,44 @@
 [
 	{
+		"user": "Josh Braun",
 		"avatar": "http://placehold.it/40x40",
 		"date": "3/10/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=326x160&maptype=roadmap&sensor=false",
 		"title": "Home Depot",
-		"description": "Lumber for lemondate stand",
+		"description": "Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.",
 		"category": "Construction",
 		"debit": true,
 		"amount": 2502.51
 	},
 	{
+		"user": "Josh Braun",
 		"avatar": "http://placehold.it/40x40",
 		"date": "3/10/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=326x160&maptype=roadmap&sensor=false",
 		"title": "Home Depot",
-		"description": "Lumber for lemondate stand",
+		"description": "Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.",
 		"category": "Construction",
 		"debit": "debit",
 		"amount": -1502.51
 	},
 	{
+		"user": "Josh Braun",
 		"avatar": "http://placehold.it/40x40",
 		"date": "2/22/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=326x160&maptype=roadmap&sensor=false",
 		"title": "Home Depot",
-		"description": "Lumber for lemondate stand",
+		"description": "Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.",
 		"category": "Construction",
 		"debit": "debit",
 		"amount": -1502.51
 	},
 	{
+		"user": "Josh Braun",
 		"avatar": "http://placehold.it/40x40",
 		"date": "2/22/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=326x160&maptype=roadmap&sensor=false",
 		"title": "Home Depot",
-		"description": "Lumber for lemondate stand",
+		"description": "Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.",
 		"category": "Construction",
 		"debit": "debit",
 		"amount": -1502.51

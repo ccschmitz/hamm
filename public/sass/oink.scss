@@ -378,19 +378,24 @@ ul.transactions {
     background: #FFF;
     border: 1px solid #CCC;
     border-radius: 4px;
-    -moz-box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
-  	-webkit-box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
-  	box-shadow: 0 3px 0 0 rgba(0,0,0,0.03);
+  	-webkit-box-shadow: 0 3px 0 0 rgba(0, 0, 0, .03);
+    -moz-box-shadow: 0 3px 0 0 rgba(0, 0, 0, .03);
+  	box-shadow: 0 3px 0 0 rgba(0, 0, 0, .03);
   	display: block;
   	margin: 0 0 10px 0;
   	overflow: hidden;
   	padding: 20px;
   	width: 100%;
-  	@include box-sizing(border-box);
+    transition: 1s all;
+    @include box-sizing(border-box);
   	&:hover {
 	    @include linear-grad(top,#F9F9F9,#FFFFFF);
       border-color: #BBB;
 	    text-decoration: none;
+    }
+    &.highlight {
+      background: #fafafa;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .15) inset;
     }
 	}
 	& img {
