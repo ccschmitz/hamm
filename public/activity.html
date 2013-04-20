@@ -1,0 +1,123 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6 ie" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="no-js ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="no-js ie8 ie" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Layout</title>
+	<meta name="description" content="-" />
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles/oink.css">
+    <link rel="stylesheet" type="text/css" href="styles/fontello.css">
+    <link rel="stylesheet" type="text/css" href="styles/fontello-embedded.css">
+    <link rel="stylesheet" type="text/css" href="styles/fontello-codes.css">
+	<link rel="stylesheet" type="text/css" href="styles/fancybox.css">
+
+</head>
+<body>
+
+	<header>
+		<a class="user" href="index.html" alt="Justin Seidl, Oink Bank">
+			<img src="img/justin-seidl.png" height="32" width="32" alt="Justin Seidl, Oink Bank">
+			<detail>
+				<h6>Justin Seidl<span class="admin">A</span></h6>
+				<company>Oink Bank</company>
+			</detail>
+			<div class="clear"></div><!-- .clear -->
+		</a>
+		<tools>
+			<belt class="activity">
+				<search>
+					<button><span class="icon-search"></span></button>
+					<input type="text" />
+				</search>
+				<button><span class="icon-export"></span></button>
+				<btngroup>
+					<button class="last"><span class="icon-location"></span></button>
+					<button><span class="icon-chart-line"></span></button>
+					<button class="first"><span class="icon-list"></span></button>
+				</btngroup>
+				<select>
+					<option>Last Week</option>
+					<option>This Month</option>
+					<option>3 Months</option>
+					<option>6 Months</option>
+					<option>1 Year</option>
+				</select>
+			</belt>
+		</tools>
+		<div class="clear"></div><!-- .clear -->
+	</header>
+
+	<content>
+
+		<navbar>
+			<balance>$32,019.31</balance>
+			<ngroup>Favorites</ngroup>
+			<ul>
+				<li><a class="active" href="#" alt="Activity"><span class="icon-dot-3"></span>Activity</a></li>
+				<li><a class="fancy" href="#blocked" alt="Send/Deposit"><span class="icon-switch"></span>Send/Deposit</a></li>
+				<li><a class="fancy" href="#blocked" alt="Goals"><span class="icon-trophy"></span>Goals</a></li>
+				<li><a class="fancy" href="#blocked" alt="People"><span class="icon-users"></span>People</a></li>
+			</ul>
+			<ngroup>Apps</ngroup>
+			<ul>
+				<li><a class="fancy" href="#blocked" alt="Harvest App"><img src="img/icon-harvest.png" height="24" width="24" alt="Harvest App">Harvest</a></li>
+				<li><a class="fancy" href="#blocked" alt="Square App"><img src="img/icon-square.png" height="24" width="24" alt="Square App">Square</a></li>
+			</ul>
+		</navbar>
+
+		<section>
+			<ul id="transactions" class="transactions"></ul>
+		</section>
+		<!-- Include Other Sections -->
+
+		<sidebar id="sidebar">
+			<h3>Home Depot</h3>
+			<date>March 13, 2013</date>
+			<p>Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.</p>
+			<ul class="tag">
+				<li>Construction</li>
+			</ul>
+			<location><iframe width="100%" height="160" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2595+Eaton+Rd,+Green+Bay,+WI&amp;aq=&amp;sll=44.474461,-87.910538&amp;sspn=0.086479,0.213718&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=2595+Eaton+Rd,+Green+Bay,+Brown,+Wisconsin+54311&amp;t=m&amp;z=14&amp;ll=44.463467,-87.953216&amp;output=embed"></iframe></location>
+			<img src="http://placehold.it/24x24"><detail>Transaction by Josh Braun</detail>
+		</sidebar>
+
+	</content>
+
+	<footer>
+		&nbsp;
+	</footer>
+
+	<div id="blocked" style="width:400px;display: none;">
+		<p>Sorry Bro! This features is currently not available for view in our demo.</p>
+	</div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/libs/accounting.min.js"></script>
+    <script type="text/javascript" src="js/libs/moment.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/libs/fancybox.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancy").fancybox({
+				maxWidth	: 400,
+				maxHeight	: 600,
+				fitToView	: false,
+				width		: '70%',
+				height		: '70%',
+				autoSize	: false,
+				closeClick	: false,
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
+		});
+	</script>
+
+</body>
+</html>

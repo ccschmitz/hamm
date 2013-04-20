@@ -19,33 +19,18 @@
 <body>
 
 	<header>
-		<a class="user" href="#" alt="#--USERNAME--#">
+		<a class="user active" href="index.html" alt="Justin Seidl, Oink Bank">
 			<img src="img/justin-seidl.png" height="32" width="32" alt="Justin Seidl, Oink Bank">
 			<detail>
 				<h6>Justin Seidl<span class="admin">A</span></h6>
 				<company>Oink Bank</company>
 			</detail>
+			<notify>3</notify>
 			<div class="clear"></div><!-- .clear -->
 		</a>
 		<tools>
-			<belt class="activity">
-				<search>
-					<button><span class="icon-search"></span></button>
-					<input type="text" />
-				</search>
-				<button><span class="icon-export"></span></button>
-				<btngroup>
-					<button class="last"><span class="icon-location"></span></button>
-					<button><span class="icon-chart-line"></span></button>
-					<button class="first"><span class="icon-list"></span></button>
-				</btngroup>
-				<select>
-					<option>Last Week</option>
-					<option>This Month</option>
-					<option>3 Months</option>
-					<option>6 Months</option>
-					<option>1 Year</option>
-				</select>
+			<belt class="home">
+				
 			</belt>
 		</tools>
 		<div class="clear"></div><!-- .clear -->
@@ -57,7 +42,7 @@
 			<balance>$32,019.31</balance>
 			<ngroup>Favorites</ngroup>
 			<ul>
-				<li><a href="#" alt="Activity"><span class="icon-dot-3"></span>Activity</a></li>
+				<li><a href="activity.html" alt="Activity"><span class="icon-dot-3"></span>Activity</a></li>
 				<li><a href="#" alt="Send/Deposit"><span class="icon-switch"></span>Send/Deposit</a></li>
 				<li><a href="#" alt="Goals"><span class="icon-trophy"></span>Goals</a></li>
 				<li><a href="#" alt="People"><span class="icon-users"></span>People</a></li>
@@ -70,19 +55,19 @@
 		</navbar>
 
 		<section>
-			<ul id="transactions" class="transactions"></ul>
+			<cover>
+				<img src="img/company-cover.jpg" alt="Oink Bank" />
+			</cover>
+			<ul class="notifications">
+				<li><a href="#" alt="Chris Schmitz">Chris Schmitz</a> has requested an increase in monthly spending limit.<remove></remove></li>
+				<li><a href="#" alt="Chris Schmitz">Chris Schmitz</a> has been successfully added to the <a href="#" alt="Oink Bank">Oink Bank</a> team.<remove></remove></li>
+				<li>Justin, welcome to your new account for <a href="#" alt="Oink Bank">Oink Bank</a>!<remove></remove></li>
+			</ul>
 		</section>
 		<!-- Include Other Sections -->
 
 		<sidebar id="sidebar">
-			<h3>Home Depot</h3>
-			<date>March 13, 2013</date>
-			<p>Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.</p>
-			<ul class="tag">
-				<li>Construction</li>
-			</ul>
-			<location></location>
-			<img src="http://placehold.it/24x24"><detail>Transaction by Josh Braun</detail>
+			&nbsp;
 		</sidebar>
 
 	</content>
