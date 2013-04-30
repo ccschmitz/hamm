@@ -1,46 +1,101 @@
 [
 	{
+		"user": "Chris Schmitz",
+		"avatar": "../img/chris-schmitz.png",
+		"date": "4/25/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
+		"title": "Jimmy Sea's",
+		"description": "Wine and dine clients",
+		"category": "Restaurant",
+		"debit": "debit",
+		"amount": -65.73
+	},
+	{
 		"user": "Josh Braun",
-		"avatar": "http://placehold.it/40x40",
-		"date": "3/10/2013",
-		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=326x160&maptype=roadmap&sensor=false",
-		"title": "Home Depot",
-		"description": "Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.",
-		"category": "Construction",
+		"avatar": "../img/josh-braun.png",
+		"date": "4/25/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
+		"title": "Pete Mitchell",
+		"description": "Volleyball league fee for company team.",
+		"category": "Income",
 		"debit": true,
-		"amount": 2502.51
+		"amount": 15
 	},
 	{
 		"user": "Josh Braun",
-		"avatar": "http://placehold.it/40x40",
-		"date": "3/10/2013",
-		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=326x160&maptype=roadmap&sensor=false",
+		"avatar": "../img/josh-braun.png",
+		"date": "4/24/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "Home Depot",
 		"description": "Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.",
 		"category": "Construction",
 		"debit": "debit",
-		"amount": -1502.51
+		"amount": -264.38
 	},
 	{
-		"user": "Josh Braun",
-		"avatar": "http://placehold.it/40x40",
-		"date": "2/22/2013",
-		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=326x160&maptype=roadmap&sensor=false",
-		"title": "Home Depot",
-		"description": "Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.",
-		"category": "Construction",
+		"user": "Justin Seidl",
+		"avatar": "../img/justin-seidl.png",
+		"date": "4/23/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
+		"title": "Broadway Automotive",
+		"description": "Transmission repair for the company car, 2012 Ford Fusion.",
+		"category": "Transportation",
 		"debit": "debit",
-		"amount": -1502.51
+		"amount": -1721.39
 	},
 	{
-		"user": "Josh Braun",
-		"avatar": "http://placehold.it/40x40",
-		"date": "2/22/2013",
-		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=326x160&maptype=roadmap&sensor=false",
-		"title": "Home Depot",
-		"description": "Lumber for second lemonade stand being build in Baird Park. Have a redemption code on receipt to receive 20% back from purchase price.",
-		"category": "Construction",
+		"user": "Tyler Jauquet",
+		"avatar": "../img/tyler-jauquet.png",
+		"date": "4/20/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
+		"title": "WS Packaging Group",
+		"description": "New website, brand, SEO and marketing materials.",
+		"category": "Income",
+		"debit": true,
+		"amount": 2575.00
+	},
+	{
+		"user": "Chris Schmitz",
+		"avatar": "../img/chris-schmitz.png",
+		"date": "4/20/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
+		"title": "Charitab.li",
+		"description": "Donation to the Boys and Girls Club of Green Bay",
+		"category": "Charity",
 		"debit": "debit",
-		"amount": -1502.51
+		"amount": -5.00
+	},
+	{
+		"user": "Justin Seidl",
+		"avatar": "../img/justin-seidl.png",
+		"date": "4/19/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
+		"title": "Ambiance Salon",
+		"description": "SEO, Adwords campaign to increase sales and reservations.",
+		"category": "Income",
+		"debit": true,
+		"amount": 762.08
+	},
+	{
+		"user": "Justin Seidl",
+		"avatar": "../img/justin-seidl.png",
+		"date": "4/17/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
+		"title": "Green Bay Packers",
+		"description": "Website and marketing campaign for the Packers Hall of Fame.",
+		"category": "Income",
+		"debit": true,
+		"amount": 14398.90
+	},
+	{
+		"user": "Tyler Jauquet",
+		"avatar": "../img/tyler-jauquet.png",
+		"date": "4/16/2013",
+		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
+		"title": "FedEx Office",
+		"description": "Paper and printed brochures for Packers Hall of Fame presentation.",
+		"category": "Retail",
+		"debit": "debit",
+		"amount": -142.94
 	}
 ]

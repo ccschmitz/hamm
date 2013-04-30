@@ -32,9 +32,9 @@ jQuery(function($) {
     var $transactionHtml = '<h3>'+ transaction.data('title') +'</h3>';
         $transactionHtml += '<date>'+ transaction.data('date') +'</date>';
         $transactionHtml += '<p>'+ transaction.data('description') +'</p>';
-        $transactionHtml += '<ul><li>'+ transaction.data('category') +'</li></ul>';
-        $transactionHtml += '<location><img src="'+ transaction.data('location') +'"></location>';
-        $transactionHtml += '<img src="http://lorempixel.com/24/24" /> Transaction by ' + transaction.data('user');
+        $transactionHtml += '<ul class="tag"><li>'+ transaction.data('category') +'</li></ul>';
+        $transactionHtml += '<location><img src="'+ transaction.data('location') +'" width="100%"></location>';
+        $transactionHtml += '<img src="'+ transaction.data('avatar') + '" height="24" width="24"> Transaction by ' + transaction.data('user');
 
     $('#sidebar').fadeOut('fast', function() {
       $(this).html($transactionHtml).fadeIn();

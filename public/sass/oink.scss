@@ -148,6 +148,19 @@ a.user {
       font-size: 0.7em;
     }
   }
+  & notify {
+    background: #F66;
+    border-radius: 24px;
+    color: #FFF;
+    float: right;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 20px;
+    line-height: 20px;
+    margin: 6px 0;
+    text-align: center;
+    width: 20px;
+  }
 }
 tools {
   border-right: 1px solid #29292C;
@@ -172,7 +185,7 @@ tools {
       z-index: 4444;
       & button {
         border: none;
-        border-radius: 3px 0 0 3px;
+        border-radius: 1px 0 0 1px;
         border-right: 1px solid #191919;
         float: none;
         left: 0;
@@ -215,7 +228,7 @@ tools {
       width: 24px;
       @include linear-grad(top,#2C2B30,#36353A);
       &:hover {
-        background: #FFF;
+        background: #222;
       }
     }
     &:after {

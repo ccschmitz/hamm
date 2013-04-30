@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="styles/fontello.css">
     <link rel="stylesheet" type="text/css" href="styles/fontello-embedded.css">
     <link rel="stylesheet" type="text/css" href="styles/fontello-codes.css">
+    <link rel="stylesheet" type="text/css" href="styles/fancybox.css">
 </head>
 <body>
 
@@ -76,10 +77,27 @@
 		&nbsp;
 	</footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/libs/accounting.min.js"></script>
-    <script src="js/libs/moment.min.js"></script>
-	<script src="js/app.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/libs/accounting.min.js"></script>
+    <script type="text/javascript" src="js/libs/moment.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/libs/fancybox.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancy").fancybox({
+				maxWidth	: 400,
+				maxHeight	: 600,
+				fitToView	: false,
+				width		: '70%',
+				height		: '70%',
+				autoSize	: false,
+				closeClick	: false,
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
+		});
+	</script>
 
 </body>
 </html>
