@@ -228,6 +228,16 @@ tools {
       padding: 3px;
       width: 24px;
       @include linear-grad(top,#2C2B30,#36353A);
+      &.left { float: left; margin: 0 10px 0 0; }
+      &.right { float: right; }
+      &.txt {
+        font-size: 0.7em;
+        font-weight: 700;
+        line-height: 24px;
+        padding: 3px 8px;
+        text-decoration: none;
+        width: auto;
+      }
       &:hover { background: #222; }
       &.active { background: #222; }
     }
@@ -377,6 +387,16 @@ sidebar {
     margin: 0 0 30px 0;
     width: 100%;
   }
+  & img.avatar {
+    float: left;
+    margin: 20px 20px 20px 0;
+  }
+  & detail {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 20px 0;
+  }
 }
 
 footer {
@@ -393,11 +413,48 @@ footer {
 cover {
   background: #DDD;
   display: block;
-  height: 400px;
+  height: auto;
+  position: relative;
   width: 100%;
+  z-index: 3333;
   & img {
+    margin: 0;
     max-height: 400px;
+    position: relative;
     width: auto;
+    z-index: 3434;
+  }
+  & info {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 4444;
+    & avatar img {
+      border: 6px solid #FFF;
+      border-radius: 132px;
+      -webkit-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+      display: block;
+      height: 120px;
+      margin: 60px auto 32px auto;
+      width: 120px;
+      z-index: 4444;
+    }
+    & individual, company {
+      color: #FFF;
+      display: block;
+      font-size: 2em;
+      font-weight: 700;
+      margin: 0;
+      text-align: center;
+      text-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
+      width: 100%;
+      z-index: 454545;
+    }
+    & company {
+      font-size: 1em;
+    }
   }
 }
 ul.notifications {
