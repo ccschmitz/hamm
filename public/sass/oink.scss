@@ -183,7 +183,7 @@ tools {
       position: relative;
       width: 200px;
       z-index: 4444;
-      & button {
+      & button, a.btn {
         border: none;
         border-radius: 1px 0 0 1px;
         border-right: 1px solid #191919;
@@ -211,14 +211,15 @@ tools {
     & btngroup {
       float: right;
       margin: 0 10px 0 0;
-      & button {
+      & button, a.btn {
         border-radius: 0;
         &.first { border-right: 0; border-radius: 4px 0 0 4px; }
         &.last { border-left: 0; border-radius: 0 4px 4px 0; }
       }
     }
-    & button {
-      border-color: #191919;
+    & button, a.btn {
+      border: 1px solid #191919;
+      border-radius: 4px;
       color: #CCC;
       float: right;
       font-size: 1.2em;
@@ -227,9 +228,8 @@ tools {
       padding: 3px;
       width: 24px;
       @include linear-grad(top,#2C2B30,#36353A);
-      &:hover {
-        background: #222;
-      }
+      &:hover { background: #222; }
+      &.active { background: #222; }
     }
     &:after {
       content: "";
@@ -508,6 +508,14 @@ ul.transactions {
 }
 
 
+// ----------
+// Fancy Box
+.fb-wrapper {
+  width: 400px;
+  padding: 20px;
+  font-size: 0.9em;
+  @include box-sizing(border-box);
+}
 
 
 //  Clear

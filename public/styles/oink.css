@@ -405,7 +405,7 @@ tools belt search {
   z-index: 4444;
 }
 /* line 186, ../sass/oink.scss */
-tools belt search button {
+tools belt search button, tools belt search a.btn {
   border: none;
   border-radius: 1px 0 0 1px;
   border-right: 1px solid #191919;
@@ -437,22 +437,23 @@ tools belt btngroup {
   margin: 0 10px 0 0;
 }
 /* line 214, ../sass/oink.scss */
-tools belt btngroup button {
+tools belt btngroup button, tools belt btngroup a.btn {
   border-radius: 0;
 }
 /* line 216, ../sass/oink.scss */
-tools belt btngroup button.first {
+tools belt btngroup button.first, tools belt btngroup a.btn.first {
   border-right: 0;
   border-radius: 4px 0 0 4px;
 }
 /* line 217, ../sass/oink.scss */
-tools belt btngroup button.last {
+tools belt btngroup button.last, tools belt btngroup a.btn.last {
   border-left: 0;
   border-radius: 0 4px 4px 0;
 }
 /* line 220, ../sass/oink.scss */
-tools belt button {
-  border-color: #191919;
+tools belt button, tools belt a.btn {
+  border: 1px solid #191919;
+  border-radius: 4px;
   color: #CCC;
   float: right;
   font-size: 1.2em;
@@ -466,8 +467,12 @@ tools belt button {
   background-image: -ms-linear-gradient(top, #36353a, #2c2b30);
   background-image: -o-linear-gradient(top, #36353a, #2c2b30);
 }
-/* line 230, ../sass/oink.scss */
-tools belt button:hover {
+/* line 231, ../sass/oink.scss */
+tools belt button:hover, tools belt a.btn:hover {
+  background: #222;
+}
+/* line 232, ../sass/oink.scss */
+tools belt button.active, tools belt a.btn.active {
   background: #222;
 }
 /* line 234, ../sass/oink.scss */
@@ -834,7 +839,17 @@ ul.transactions h5.amount.debit {
   color: #BF0738;
 }
 
-/* line 514, ../sass/oink.scss */
+/* line 513, ../sass/oink.scss */
+.fb-wrapper {
+  width: 400px;
+  padding: 20px;
+  font-size: 0.9em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 522, ../sass/oink.scss */
 .clear:after {
   content: "";
   display: table;

@@ -36,11 +36,11 @@
 					<button><span class="icon-search"></span></button>
 					<input type="text" />
 				</search>
-				<button><span class="icon-export"></span></button>
+				<a class="btn fancy" href="#blocked"><span class="icon-export"></span></a>
 				<btngroup>
-					<button class="last"><span class="icon-location"></span></button>
-					<button><span class="icon-chart-line"></span></button>
-					<button class="first"><span class="icon-list"></span></button>
+					<a class="btn last fancy" href="#blocked"><span class="icon-location"></span></a>
+					<a class="btn fancy" href="#blocked"><span class="icon-chart-line"></span></a>
+					<button class="first active"><span class="icon-list"></span></button>
 				</btngroup>
 			</belt>
 		</tools>
@@ -87,7 +87,7 @@
 		&nbsp;
 	</footer>
 
-	<div id="blocked" style="width:400px;display: none;">
+	<div id="blocked" class="fb-wrapper" style="display: none;">
 		<p>Sorry Bro! This features is currently not available for view in our demo.</p>
 	</div>
 
@@ -104,7 +104,7 @@
 				maxHeight	: 600,
 				fitToView	: false,
 				width		: '70%',
-				height		: '70%',
+				height		: '20%',
 				autoSize	: false,
 				closeClick	: false,
 				openEffect	: 'none',
