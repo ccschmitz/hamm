@@ -716,8 +716,35 @@ footer {
   background-image: -ms-linear-gradient(top, #1b1b1d, #232226);
   background-image: -o-linear-gradient(top, #1b1b1d, #232226);
 }
+/* line 409, ../sass/oink.scss */
+footer a.btn {
+  background: #F66;
+  border: 1px solid #191919;
+  border-radius: 4px;
+  color: #FFF;
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  font-weight: 700;
+  height: 24px;
+  line-height: 24px;
+  margin: 10px;
+  padding: 3px 0;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+}
+/* line 426, ../sass/oink.scss */
+footer a.home {
+  color: #999;
+  float: left;
+  font-size: 0.8em;
+  line-height: 50px;
+  margin: 0 10px 0 20px;
+  text-decoration: none;
+}
 
-/* line 413, ../sass/oink.scss */
+/* line 438, ../sass/oink.scss */
 cover {
   background: #DDD;
   display: block;
@@ -726,7 +753,7 @@ cover {
   width: 100%;
   z-index: 3333;
 }
-/* line 420, ../sass/oink.scss */
+/* line 445, ../sass/oink.scss */
 cover img {
   margin: 0;
   max-height: 400px;
@@ -734,14 +761,14 @@ cover img {
   width: auto;
   z-index: 3434;
 }
-/* line 427, ../sass/oink.scss */
+/* line 452, ../sass/oink.scss */
 cover info {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 4444;
 }
-/* line 432, ../sass/oink.scss */
+/* line 457, ../sass/oink.scss */
 cover info avatar img {
   border: 6px solid #FFF;
   border-radius: 132px;
@@ -754,7 +781,7 @@ cover info avatar img {
   width: 120px;
   z-index: 4444;
 }
-/* line 444, ../sass/oink.scss */
+/* line 469, ../sass/oink.scss */
 cover info individual, cover info company {
   color: #FFF;
   display: block;
@@ -766,19 +793,19 @@ cover info individual, cover info company {
   width: 100%;
   z-index: 454545;
 }
-/* line 455, ../sass/oink.scss */
+/* line 480, ../sass/oink.scss */
 cover info company {
   font-size: 1em;
 }
 
-/* line 460, ../sass/oink.scss */
+/* line 485, ../sass/oink.scss */
 ul.notifications {
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
-/* line 465, ../sass/oink.scss */
+/* line 490, ../sass/oink.scss */
 ul.notifications li {
   background: #EDEDED;
   border-top: 1px solid #FFF;
@@ -788,18 +815,18 @@ ul.notifications li {
   line-height: 20px;
   padding: 15px 30px;
 }
-/* line 473, ../sass/oink.scss */
+/* line 498, ../sass/oink.scss */
 ul.notifications li a {
   color: #00597A;
 }
 
-/* line 479, ../sass/oink.scss */
+/* line 504, ../sass/oink.scss */
 ul.transactions {
   list-style: none;
   margin: 0;
   padding: 15px;
 }
-/* line 483, ../sass/oink.scss */
+/* line 508, ../sass/oink.scss */
 ul.transactions li a {
   background: #FFF;
   border: 1px solid #CCC;
@@ -817,7 +844,7 @@ ul.transactions li a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 497, ../sass/oink.scss */
+/* line 522, ../sass/oink.scss */
 ul.transactions li a:hover {
   background-color: #f9f9f9;
   background-image: -webkit-linear-gradient(top, white, #f9f9f9);
@@ -827,12 +854,12 @@ ul.transactions li a:hover {
   border-color: #BBB;
   text-decoration: none;
 }
-/* line 502, ../sass/oink.scss */
+/* line 527, ../sass/oink.scss */
 ul.transactions li a.highlight {
   background: #fafafa;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
 }
-/* line 507, ../sass/oink.scss */
+/* line 532, ../sass/oink.scss */
 ul.transactions img {
   background: #666;
   border-radius: 3px;
@@ -841,7 +868,7 @@ ul.transactions img {
   margin: 0 12px 0 0;
   width: 40px;
 }
-/* line 515, ../sass/oink.scss */
+/* line 540, ../sass/oink.scss */
 ul.transactions date {
   color: #999;
   float: left;
@@ -854,11 +881,11 @@ ul.transactions date {
   text-transform: uppercase;
   width: 30px;
 }
-/* line 526, ../sass/oink.scss */
+/* line 551, ../sass/oink.scss */
 ul.transactions date span {
   font-size: 1.8em;
 }
-/* line 528, ../sass/oink.scss */
+/* line 553, ../sass/oink.scss */
 ul.transactions detail {
   float: left;
   line-height: 1.2;
@@ -866,16 +893,16 @@ ul.transactions detail {
   margin: 0 20px 0 12px;
   max-width: 38%;
 }
-/* line 534, ../sass/oink.scss */
+/* line 559, ../sass/oink.scss */
 ul.transactions detail h6 {
   font-weight: 700;
   margin: 0 0 4px 0;
 }
-/* line 535, ../sass/oink.scss */
+/* line 560, ../sass/oink.scss */
 ul.transactions detail i {
   color: #999;
 }
-/* line 537, ../sass/oink.scss */
+/* line 562, ../sass/oink.scss */
 ul.transactions ul.tag {
   float: right;
   height: 11px;
@@ -884,7 +911,7 @@ ul.transactions ul.tag {
   overflow: hidden;
   padding: 10px 0;
 }
-/* line 544, ../sass/oink.scss */
+/* line 569, ../sass/oink.scss */
 ul.transactions ul.tag li {
   background: #FFF;
   border: 1px solid #CCC;
@@ -895,7 +922,7 @@ ul.transactions ul.tag li {
   margin: 0 3px 0 0;
   padding: 2px 6px;
 }
-/* line 555, ../sass/oink.scss */
+/* line 580, ../sass/oink.scss */
 ul.transactions h5.amount {
   color: #A5CC59;
   float: right;
@@ -905,12 +932,12 @@ ul.transactions h5.amount {
   text-align: right;
   width: 20%;
 }
-/* line 563, ../sass/oink.scss */
+/* line 588, ../sass/oink.scss */
 ul.transactions h5.amount.debit {
   color: #BF0738;
 }
 
-/* line 570, ../sass/oink.scss */
+/* line 595, ../sass/oink.scss */
 .fb-wrapper {
   width: 400px;
   padding: 20px;
@@ -920,7 +947,7 @@ ul.transactions h5.amount.debit {
   box-sizing: border-box;
 }
 
-/* line 579, ../sass/oink.scss */
+/* line 604, ../sass/oink.scss */
 .clear:after {
   content: "";
   display: table;

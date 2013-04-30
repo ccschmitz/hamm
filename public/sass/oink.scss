@@ -406,6 +406,31 @@ footer {
   width: 100%;
   z-index: 9999;
   @include linear-grad(top,#232226,#1B1B1D);
+  & a.btn {
+    background: #F66;
+    border: 1px solid #191919;
+    border-radius: 4px;
+    color: #FFF;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    margin: 10px;
+    padding: 3px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+  }
+  & a.home {
+    color: #999;
+    float: left;
+    font-size: 0.8em;
+    line-height: 50px;
+    margin: 0 10px 0 20px;
+    text-decoration: none;
+  }
 }
 
 // ----------
