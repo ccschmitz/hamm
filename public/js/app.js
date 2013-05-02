@@ -25,6 +25,27 @@ jQuery(function($) {
     });
   });
 
+  // Search
+  $('#search-term').keyup(function(e) {
+    var $this = $(this),
+        $transactions = $('#transactions').find('.transaction');
+
+    if ($this.val() != '') {
+      $transactions.each(function() {
+        var $transaction = $(this),
+            expression = new RegExp($this.val(), 'i');
+
+        if ($transaction.children().text().match(expression)) {
+          $transaction.slideDown();
+        } else {
+          $transaction.slideUp();
+        }
+      });
+    } else {
+      $transactions.slideDown();
+    }
+  });
+
   function inspectTransaction(transaction) {
     highlightTransactions(transaction);
 
