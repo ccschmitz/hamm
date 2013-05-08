@@ -41,3 +41,34 @@ button {
   @include box-sizing(content-box);
   &:hover { background: #999; }
 }
+
+form.mail {
+  & input[type="text"], input[type="email"] {
+    width: 100%;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    color: #777;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 12px;
+    margin: 0 0 10px 0;
+    @include box-sizing(border-box);
+  }
+  & button.btn {
+    background: #66C;
+    border: none;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 18px;
+    margin: 10px 0 0 0;
+    padding: 12px 0;
+    text-align: center;
+    width: 100%;
+    &:hover { background: #3F3F7E; }
+  }
+}

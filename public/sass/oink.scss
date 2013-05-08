@@ -407,13 +407,14 @@ footer {
   z-index: 9999;
   @include linear-grad(top,#232226,#1B1B1D);
   & a.btn {
-    background: #F66;
-    border: 1px solid #191919;
-    border-radius: 4px;
+    background: #66C;
+    border: none;
+    border-radius: 24px;
     color: #FFF;
+    cursor: pointer;
     display: block;
     float: left;
-    font-size: 0.9em;
+    font-size: 14px;
     font-weight: 700;
     height: 24px;
     line-height: 24px;
@@ -422,6 +423,7 @@ footer {
     text-align: center;
     text-decoration: none;
     width: 120px;
+    &:hover { background: #3F3F7E; }
   }
   & a.home {
     color: #999;

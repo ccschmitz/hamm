@@ -1,7 +1,7 @@
 [
 	{
 		"user": "Chris Schmitz",
-		"avatar": "../img/chris-schmitz.png",
+		"avatar": "img/chris-schmitz.png",
 		"date": "4/25/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "Jimmy Sea's",
@@ -12,7 +12,7 @@
 	},
 	{
 		"user": "Josh Braun",
-		"avatar": "../img/josh-braun.png",
+		"avatar": "img/josh-braun.png",
 		"date": "4/25/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "Pete Mitchell",
@@ -23,7 +23,7 @@
 	},
 	{
 		"user": "Josh Braun",
-		"avatar": "../img/josh-braun.png",
+		"avatar": "img/josh-braun.png",
 		"date": "4/24/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "Home Depot",
@@ -34,7 +34,7 @@
 	},
 	{
 		"user": "Justin Seidl",
-		"avatar": "../img/justin-seidl.png",
+		"avatar": "img/justin-seidl.png",
 		"date": "4/23/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "Broadway Automotive",
@@ -45,7 +45,7 @@
 	},
 	{
 		"user": "Tyler Jauquet",
-		"avatar": "../img/tyler-jauquet.png",
+		"avatar": "img/tyler-jauquet.png",
 		"date": "4/20/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "WS Packaging Group",
@@ -56,7 +56,7 @@
 	},
 	{
 		"user": "Chris Schmitz",
-		"avatar": "../img/chris-schmitz.png",
+		"avatar": "img/chris-schmitz.png",
 		"date": "4/20/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "Charitab.li",
@@ -67,7 +67,7 @@
 	},
 	{
 		"user": "Justin Seidl",
-		"avatar": "../img/justin-seidl.png",
+		"avatar": "img/justin-seidl.png",
 		"date": "4/19/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "Ambiance Salon",
@@ -78,7 +78,7 @@
 	},
 	{
 		"user": "Justin Seidl",
-		"avatar": "../img/justin-seidl.png",
+		"avatar": "img/justin-seidl.png",
 		"date": "4/17/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "Green Bay Packers",
@@ -89,7 +89,7 @@
 	},
 	{
 		"user": "Tyler Jauquet",
-		"avatar": "../img/tyler-jauquet.png",
+		"avatar": "img/tyler-jauquet.png",
 		"date": "4/16/2013",
 		"location": "http://maps.googleapis.com/maps/api/staticmap?center=The+Creamery+De+Pere,+WI&zoom=13&size=320x160&maptype=roadmap&sensor=false",
 		"title": "FedEx Office",

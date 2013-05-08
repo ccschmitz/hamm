@@ -7,7 +7,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Layout</title>
+	<title>Dashboard | Demo | Oink Bank</title>
 	<meta name="description" content="-" />
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -83,8 +83,23 @@
 
 	<footer>
 		<a class="home" href="http://oinkbank.co">&larr; Home</a>
-		<a class="btn red" href="http://oinkbank.co">Get an Invite</a>
+		<a class="btn red fancy" href="#invite">Get an Invite</a>
 	</footer>
+
+	<div id="invite" style="display: none;">
+		<form class="mail" action="http://oinkbank.us6.list-manage2.com/subscribe/post" method="POST">
+			<input type="hidden" name="u" value="791452382b20295bf938534ee">
+			<input type="hidden" name="id" value="49de39eeb2">
+			<input type="text" name="MERGE1" id="MERGE1" size="25" value="" placeholder="Name" autocorrect="off" />
+			<input type="text" name="MERGE2" id="MERGE2" size="25" value="" placeholder="Company" autocorrect="off" />
+			<input type="email" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Email" autocapitalize="off" autocorrect="off" />
+			<button class="btn" type="submit" name="submit" value="Send Invite">Send Invite</button>
+		</form>
+    </div><!-- #invite -->
+
+    <div id="blocked" style="display: none;">
+		<p>This features is currently not available for view in our demo.</p>
+	</div>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/libs/accounting.min.js"></script>
@@ -95,17 +110,29 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$(".fancy").fancybox({
-				maxWidth	: 400,
-				maxHeight	: 600,
+				maxWidth	: 320,
+				maxHeight	: 500,
 				fitToView	: false,
 				width		: '70%',
 				height		: '70%',
-				autoSize	: false,
+				autoSize	: true,
 				closeClick	: false,
 				openEffect	: 'none',
 				closeEffect	: 'none'
 			});
 		});
+	</script>
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-37965629-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
 	</script>
 
 </body>

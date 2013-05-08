@@ -233,6 +233,42 @@ button:hover {
   background: #999;
 }
 
+/* line 46, ../sass/_forms.scss */
+form.mail input[type="text"], form.mail input[type="email"] {
+  width: 100%;
+  border: 1px solid #EDEDED;
+  border-radius: 4px;
+  color: #777;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 12px;
+  margin: 0 0 10px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 57, ../sass/_forms.scss */
+form.mail button.btn {
+  background: #66C;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 24px;
+  line-height: 18px;
+  margin: 10px 0 0 0;
+  padding: 12px 0;
+  text-align: center;
+  width: 100%;
+}
+/* line 72, ../sass/_forms.scss */
+form.mail button.btn:hover {
+  background: #3F3F7E;
+}
+
 /*
 * Oink
 * Copyright Oink Bank 2013
@@ -718,13 +754,14 @@ footer {
 }
 /* line 409, ../sass/oink.scss */
 footer a.btn {
-  background: #F66;
-  border: 1px solid #191919;
-  border-radius: 4px;
+  background: #66C;
+  border: none;
+  border-radius: 24px;
   color: #FFF;
+  cursor: pointer;
   display: block;
   float: left;
-  font-size: 0.9em;
+  font-size: 14px;
   font-weight: 700;
   height: 24px;
   line-height: 24px;
@@ -735,6 +772,10 @@ footer a.btn {
   width: 120px;
 }
 /* line 426, ../sass/oink.scss */
+footer a.btn:hover {
+  background: #3F3F7E;
+}
+/* line 428, ../sass/oink.scss */
 footer a.home {
   color: #999;
   float: left;
@@ -744,7 +785,7 @@ footer a.home {
   text-decoration: none;
 }
 
-/* line 438, ../sass/oink.scss */
+/* line 440, ../sass/oink.scss */
 cover {
   background: #DDD;
   display: block;
@@ -753,7 +794,7 @@ cover {
   width: 100%;
   z-index: 3333;
 }
-/* line 445, ../sass/oink.scss */
+/* line 447, ../sass/oink.scss */
 cover img {
   margin: 0;
   max-height: 400px;
@@ -761,14 +802,14 @@ cover img {
   width: auto;
   z-index: 3434;
 }
-/* line 452, ../sass/oink.scss */
+/* line 454, ../sass/oink.scss */
 cover info {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 4444;
 }
-/* line 457, ../sass/oink.scss */
+/* line 459, ../sass/oink.scss */
 cover info avatar img {
   border: 6px solid #FFF;
   border-radius: 132px;
@@ -781,7 +822,7 @@ cover info avatar img {
   width: 120px;
   z-index: 4444;
 }
-/* line 469, ../sass/oink.scss */
+/* line 471, ../sass/oink.scss */
 cover info individual, cover info company {
   color: #FFF;
   display: block;
@@ -793,19 +834,19 @@ cover info individual, cover info company {
   width: 100%;
   z-index: 454545;
 }
-/* line 480, ../sass/oink.scss */
+/* line 482, ../sass/oink.scss */
 cover info company {
   font-size: 1em;
 }
 
-/* line 485, ../sass/oink.scss */
+/* line 487, ../sass/oink.scss */
 ul.notifications {
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
-/* line 490, ../sass/oink.scss */
+/* line 492, ../sass/oink.scss */
 ul.notifications li {
   background: #EDEDED;
   border-top: 1px solid #FFF;
@@ -815,18 +856,18 @@ ul.notifications li {
   line-height: 20px;
   padding: 15px 30px;
 }
-/* line 498, ../sass/oink.scss */
+/* line 500, ../sass/oink.scss */
 ul.notifications li a {
   color: #00597A;
 }
 
-/* line 504, ../sass/oink.scss */
+/* line 506, ../sass/oink.scss */
 ul.transactions {
   list-style: none;
   margin: 0;
   padding: 15px;
 }
-/* line 508, ../sass/oink.scss */
+/* line 510, ../sass/oink.scss */
 ul.transactions li a {
   background: #FFF;
   border: 1px solid #CCC;
@@ -844,7 +885,7 @@ ul.transactions li a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 522, ../sass/oink.scss */
+/* line 524, ../sass/oink.scss */
 ul.transactions li a:hover {
   background-color: #f9f9f9;
   background-image: -webkit-linear-gradient(top, white, #f9f9f9);
@@ -854,12 +895,12 @@ ul.transactions li a:hover {
   border-color: #BBB;
   text-decoration: none;
 }
-/* line 527, ../sass/oink.scss */
+/* line 529, ../sass/oink.scss */
 ul.transactions li a.highlight {
   background: #fafafa;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
 }
-/* line 532, ../sass/oink.scss */
+/* line 534, ../sass/oink.scss */
 ul.transactions img {
   background: #666;
   border-radius: 3px;
@@ -868,7 +909,7 @@ ul.transactions img {
   margin: 0 12px 0 0;
   width: 40px;
 }
-/* line 540, ../sass/oink.scss */
+/* line 542, ../sass/oink.scss */
 ul.transactions date {
   color: #999;
   float: left;
@@ -881,11 +922,11 @@ ul.transactions date {
   text-transform: uppercase;
   width: 30px;
 }
-/* line 551, ../sass/oink.scss */
+/* line 553, ../sass/oink.scss */
 ul.transactions date span {
   font-size: 1.8em;
 }
-/* line 553, ../sass/oink.scss */
+/* line 555, ../sass/oink.scss */
 ul.transactions detail {
   float: left;
   line-height: 1.2;
@@ -893,16 +934,16 @@ ul.transactions detail {
   margin: 0 20px 0 12px;
   max-width: 38%;
 }
-/* line 559, ../sass/oink.scss */
+/* line 561, ../sass/oink.scss */
 ul.transactions detail h6 {
   font-weight: 700;
   margin: 0 0 4px 0;
 }
-/* line 560, ../sass/oink.scss */
+/* line 562, ../sass/oink.scss */
 ul.transactions detail i {
   color: #999;
 }
-/* line 562, ../sass/oink.scss */
+/* line 564, ../sass/oink.scss */
 ul.transactions ul.tag {
   float: right;
   height: 11px;
@@ -911,7 +952,7 @@ ul.transactions ul.tag {
   overflow: hidden;
   padding: 10px 0;
 }
-/* line 569, ../sass/oink.scss */
+/* line 571, ../sass/oink.scss */
 ul.transactions ul.tag li {
   background: #FFF;
   border: 1px solid #CCC;
@@ -922,7 +963,7 @@ ul.transactions ul.tag li {
   margin: 0 3px 0 0;
   padding: 2px 6px;
 }
-/* line 580, ../sass/oink.scss */
+/* line 582, ../sass/oink.scss */
 ul.transactions h5.amount {
   color: #A5CC59;
   float: right;
@@ -932,12 +973,12 @@ ul.transactions h5.amount {
   text-align: right;
   width: 20%;
 }
-/* line 588, ../sass/oink.scss */
+/* line 590, ../sass/oink.scss */
 ul.transactions h5.amount.debit {
   color: #BF0738;
 }
 
-/* line 595, ../sass/oink.scss */
+/* line 597, ../sass/oink.scss */
 .fb-wrapper {
   width: 400px;
   padding: 20px;
@@ -947,7 +988,7 @@ ul.transactions h5.amount.debit {
   box-sizing: border-box;
 }
 
-/* line 604, ../sass/oink.scss */
+/* line 606, ../sass/oink.scss */
 .clear:after {
   content: "";
   display: table;
