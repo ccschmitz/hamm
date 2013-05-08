@@ -804,12 +804,13 @@ cover img {
 }
 /* line 454, ../sass/oink.scss */
 cover info {
+  left: 0;
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 4444;
 }
-/* line 459, ../sass/oink.scss */
+/* line 460, ../sass/oink.scss */
 cover info avatar img {
   border: 6px solid #FFF;
   border-radius: 132px;
@@ -822,7 +823,7 @@ cover info avatar img {
   width: 120px;
   z-index: 4444;
 }
-/* line 471, ../sass/oink.scss */
+/* line 472, ../sass/oink.scss */
 cover info individual, cover info company {
   color: #FFF;
   display: block;
@@ -834,19 +835,19 @@ cover info individual, cover info company {
   width: 100%;
   z-index: 454545;
 }
-/* line 482, ../sass/oink.scss */
+/* line 483, ../sass/oink.scss */
 cover info company {
   font-size: 1em;
 }
 
-/* line 487, ../sass/oink.scss */
+/* line 488, ../sass/oink.scss */
 ul.notifications {
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
-/* line 492, ../sass/oink.scss */
+/* line 493, ../sass/oink.scss */
 ul.notifications li {
   background: #EDEDED;
   border-top: 1px solid #FFF;
@@ -856,18 +857,18 @@ ul.notifications li {
   line-height: 20px;
   padding: 15px 30px;
 }
-/* line 500, ../sass/oink.scss */
+/* line 501, ../sass/oink.scss */
 ul.notifications li a {
   color: #00597A;
 }
 
-/* line 506, ../sass/oink.scss */
+/* line 507, ../sass/oink.scss */
 ul.transactions {
   list-style: none;
   margin: 0;
   padding: 15px;
 }
-/* line 510, ../sass/oink.scss */
+/* line 511, ../sass/oink.scss */
 ul.transactions li a {
   background: #FFF;
   border: 1px solid #CCC;
@@ -885,7 +886,7 @@ ul.transactions li a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 524, ../sass/oink.scss */
+/* line 525, ../sass/oink.scss */
 ul.transactions li a:hover {
   background-color: #f9f9f9;
   background-image: -webkit-linear-gradient(top, white, #f9f9f9);
@@ -895,12 +896,12 @@ ul.transactions li a:hover {
   border-color: #BBB;
   text-decoration: none;
 }
-/* line 529, ../sass/oink.scss */
+/* line 530, ../sass/oink.scss */
 ul.transactions li a.highlight {
   background: #fafafa;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
 }
-/* line 534, ../sass/oink.scss */
+/* line 535, ../sass/oink.scss */
 ul.transactions img {
   background: #666;
   border-radius: 3px;
@@ -909,7 +910,7 @@ ul.transactions img {
   margin: 0 12px 0 0;
   width: 40px;
 }
-/* line 542, ../sass/oink.scss */
+/* line 543, ../sass/oink.scss */
 ul.transactions date {
   color: #999;
   float: left;
@@ -922,11 +923,11 @@ ul.transactions date {
   text-transform: uppercase;
   width: 30px;
 }
-/* line 553, ../sass/oink.scss */
+/* line 554, ../sass/oink.scss */
 ul.transactions date span {
   font-size: 1.8em;
 }
-/* line 555, ../sass/oink.scss */
+/* line 556, ../sass/oink.scss */
 ul.transactions detail {
   float: left;
   line-height: 1.2;
@@ -934,16 +935,16 @@ ul.transactions detail {
   margin: 0 20px 0 12px;
   max-width: 38%;
 }
-/* line 561, ../sass/oink.scss */
+/* line 562, ../sass/oink.scss */
 ul.transactions detail h6 {
   font-weight: 700;
   margin: 0 0 4px 0;
 }
-/* line 562, ../sass/oink.scss */
+/* line 563, ../sass/oink.scss */
 ul.transactions detail i {
   color: #999;
 }
-/* line 564, ../sass/oink.scss */
+/* line 565, ../sass/oink.scss */
 ul.transactions ul.tag {
   float: right;
   height: 11px;
@@ -952,7 +953,7 @@ ul.transactions ul.tag {
   overflow: hidden;
   padding: 10px 0;
 }
-/* line 571, ../sass/oink.scss */
+/* line 572, ../sass/oink.scss */
 ul.transactions ul.tag li {
   background: #FFF;
   border: 1px solid #CCC;
@@ -963,7 +964,7 @@ ul.transactions ul.tag li {
   margin: 0 3px 0 0;
   padding: 2px 6px;
 }
-/* line 582, ../sass/oink.scss */
+/* line 583, ../sass/oink.scss */
 ul.transactions h5.amount {
   color: #A5CC59;
   float: right;
@@ -973,12 +974,12 @@ ul.transactions h5.amount {
   text-align: right;
   width: 20%;
 }
-/* line 590, ../sass/oink.scss */
+/* line 591, ../sass/oink.scss */
 ul.transactions h5.amount.debit {
   color: #BF0738;
 }
 
-/* line 597, ../sass/oink.scss */
+/* line 598, ../sass/oink.scss */
 .fb-wrapper {
   width: 400px;
   padding: 20px;
@@ -988,7 +989,7 @@ ul.transactions h5.amount.debit {
   box-sizing: border-box;
 }
 
-/* line 606, ../sass/oink.scss */
+/* line 607, ../sass/oink.scss */
 .clear:after {
   content: "";
   display: table;
